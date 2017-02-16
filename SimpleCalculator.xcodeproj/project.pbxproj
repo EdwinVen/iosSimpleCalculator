@@ -12,6 +12,8 @@
 		6072790B1E55E787006839EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607279091E55E787006839EC /* LaunchScreen.storyboard */; };
 		607279161E55E787006839EC /* SimpleCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607279151E55E787006839EC /* SimpleCalculatorTests.swift */; };
 		607279211E55E787006839EC /* SimpleCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607279201E55E787006839EC /* SimpleCalculatorUITests.swift */; };
+		6072792F1E55E905006839EC /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6072792E1E55E905006839EC /* CalculatorModel.swift */; };
+		607279331E55EBBC006839EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607279321E55EBBC006839EC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		6072791C1E55E787006839EC /* SimpleCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607279201E55E787006839EC /* SimpleCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalculatorUITests.swift; sourceTree = "<group>"; };
 		607279221E55E787006839EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6072792E1E55E905006839EC /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		607279321E55EBBC006839EC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				607279071E55E787006839EC /* Assets.xcassets */,
 				607279091E55E787006839EC /* LaunchScreen.storyboard */,
 				6072790C1E55E787006839EC /* Info.plist */,
+				6072792E1E55E905006839EC /* CalculatorModel.swift */,
+				607279321E55EBBC006839EC /* Main.storyboard */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607279331E55EBBC006839EC /* Main.storyboard in Resources */,
 				6072790B1E55E787006839EC /* LaunchScreen.storyboard in Resources */,
 				607279081E55E787006839EC /* Assets.xcassets in Resources */,
 			);
@@ -253,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607279011E55E787006839EC /* AppDelegate.swift in Sources */,
+				6072792F1E55E905006839EC /* CalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
